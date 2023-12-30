@@ -12,8 +12,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/getlantern/elevated"
 	"github.com/getlantern/golog"
+	"github.com/secoba/elevated"
 )
 
 var (

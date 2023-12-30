@@ -7,9 +7,8 @@ package main
 import (
 	"os/exec"
 
-	"bitbucket.org/kardianos/osext"
-	"github.com/getlantern/elevated"
 	"github.com/getlantern/golog"
+	"github.com/kardianos/osext"
 )
 
 var (

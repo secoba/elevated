@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"regexp"
 
-	"github.com/getlantern/elevate"
+	"github.com/secoba/elevate"
 )
 
 const (

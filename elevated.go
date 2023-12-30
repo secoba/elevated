@@ -30,10 +30,10 @@ import (
 	"sync"
 	"time"
 
-	"bitbucket.org/kardianos/osext"
 	"github.com/getlantern/golog"
-	"github.com/getlantern/service"
 	"github.com/getlantern/waitforserver"
+	"github.com/kardianos/osext"
+	"github.com/secoba/service"
 )
 
 const (

@@ -1,3 +1,4 @@
+//go:build !windows && !nacl && !plan9
 // +build !windows,!nacl,!plan9
 
 package elevated
@@ -8,7 +9,6 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/getlantern/elevate"
 	"github.com/getlantern/golog"
 )
 

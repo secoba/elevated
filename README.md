@@ -1,4 +1,4 @@
-[Godoc](http://godoc.org/github.com/getlantern/elevated)
+[Godoc](http://godoc.org/github.com/secoba/elevated)
 
 elevated currently only works on OS X and Windows.
 
