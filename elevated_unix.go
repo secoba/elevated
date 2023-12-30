@@ -10,6 +10,7 @@ import (
 	"os/exec"
 
 	"github.com/getlantern/golog"
+	"github.com/secoba/elevate"
 )
 
 func elevatedCommand(prompt string, program string, args ...string) *exec.Cmd {

@@ -18,7 +18,7 @@ var (
 )
 
 func elevatedCommand(prompt string, program string, args ...string) *exec.Cmd {
-	return elevate.Prompt(prompt, program, args...)
+	return elevate.WithPrompt(prompt).Command(program, args...)
 }
 
 func directLogsToSyslog() error {
